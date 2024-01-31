@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+.user-search-container {
+  display: flex;
+  position: relative;
+}
+
+.user-search-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 5px;
+  border: 1px solod black;
+  border-radius: 20px;
+}
+.user-search-input input {
+  border: none;
+  height: 20px;
+  padding: 5px;
+}
+.user-search-input input:focus {
+  outline: none;
+}
