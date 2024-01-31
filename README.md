@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Multiple serch selector
+That sounds like a neat project! Building a small application that utilizes a dummy API to search for users, select them, and manage the selected users is a great way to demonstrate your frontend skills, especially with ReactJS and state management.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here's how you can structure your project:
 
-## Available Scripts
+1. **Setup React App**: Begin by setting up a new React application using Create React App or any other preferred method.
 
-In the project directory, you can run:
+2. **Component Structure**: Divide your application into components for different functionalities:
+   - SearchBar: Component to search for users.
+   - UserList: Component to display search results.
+   - SelectedUsers: Component to display and manage selected users.
+   - UserCard: Component to represent each user in the lists.
 
-### `npm start`
+3. **State Management**: Utilize Redux for state management, especially for managing selected users.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. **API Integration**: Use a dummy API to fetch user data. You can use libraries like Axios or fetch for making API requests.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. **Search Functionality**: Implement search functionality to filter users based on input text.
 
-### `npm test`
+6. **Select/Deselect Users**: Allow users to select or deselect users from the search results and manage the selected users' state using Redux.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+7. **UI Design**: Utilize Tailwind CSS for styling your components and making the UI visually appealing and responsive.
 
-### `npm run build`
+8. **Testing**: Test your application thoroughly, especially the user interactions and Redux state management.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+9. **Deployment**: Once everything is working as expected, deploy your application to a platform like Netlify or Vercel for others to see and use.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+By building this application, you'll not only showcase your skills but also have a practical project to add to your resume/portfolio. Good luck with your project! If you need further assistance with any specific aspect of the project, feel free to ask.
